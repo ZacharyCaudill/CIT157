@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ConsoleReviewPros - Home</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="HTMLMainPage.html">Home</a></li>
+				<li><a href="HTMLPS5Page.html">PS5</a></li>
+				<li><a href="HTMLXboxPage.html">Xbox Series S/X</a></li>
+				<li><a href="HTMLComparePage.html">Compare</a></li>
+			</ul>
+		</nav>
+		<h1>Welcome to ConsoleReviewPros</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>PS5 Pros and Cons</h2>
+			<p>Here you will find a detailed breakdown of the pros and cons of the PS5 console.</p>
+			<a href="HTMLPS5Page.html"><img src="ps5.jpg" alt="PS5 Console"></a>
+		</section>
+
+		<section>
+			<h2>Xbox Series S/X Pros and Cons</h2>
+			<p>Here you will find a detailed breakdown of the pros and cons of the Xbox Series S/X consoles.</p>
+			<a href="HTMLXboxPage.html"><img src="xbox.jpg" alt="Xbox Series S/X Consoles"></a>
+		</section>
+
+		<section>
+			<h2>PS5 vs Xbox Series S/X Comparison</h2>
+			<p>Here you will find a detailed comparison between the PS5 and Xbox Series S/X consoles.</p>
+			<a href="HTMLComparePage.html"><img src="compare.jpg" alt="PS5 vs Xbox Series S/X Comparison"></a>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 ConsoleReviewPros</p>
+	</footer>
+</body>
+</html>
 
