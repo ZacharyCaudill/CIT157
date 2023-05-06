@@ -113,15 +113,6 @@ h2 {
 footer {
   width: 100%;
   height: 50px; 
-  color: white;
+  background-color: white;
   text-align: center;
 }
-
-.xbox footer {
-  background-color: #006400;
-}
-
-.ps5 footer {
-  background-color: #00688B;
-}
-
