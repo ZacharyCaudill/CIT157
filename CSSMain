@@ -1,1 +1,34 @@
+/* Universal styles */
+
+/* Reset default values */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font and font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Style links on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust font size for smaller screens */
+  body {
+    font-size: 14px;
+  }
+}
 
