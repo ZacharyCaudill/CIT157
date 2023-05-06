@@ -2,6 +2,9 @@
 
 body {
   background-color: #D8FFD8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -12,13 +15,22 @@ header {
 }
 
 nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
   background-color: #98FB98;
-  color: white;
+}
+
+nav li {
+  font-size: 20px;
 }
 
 nav a {
   color: #006400;
   text-decoration: none;
+  padding: 1em;
 }
 
 nav a:hover {
@@ -52,5 +64,5 @@ h2 {
 }
 
 footer {
-  background-color: #006400;
+  margin-top: auto;
 }
