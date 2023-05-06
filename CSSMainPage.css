@@ -1,61 +1,72 @@
-/* CSSMainPage */
-
-
-/* Style banner */
-.banner {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
+header {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
 }
 
-/* Style banner heading */
-.banner h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+nav {
+    display: inline-block;
+    text-align: left;
 }
 
-/* Style banner subheading */
-.banner h2 {
-  font-size: 24px;
-  font-weight: normal;
-  margin-bottom: 40px;
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
-/* Style footer */
-.footer {
-  background-color: #f2f2f2;
-  color: #333;
-  padding: 20px;
-  text-align: center;
+nav li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
-/* Style main content area */
-.main {
-  margin: 20px;
-  padding: 20px;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
-/* Style page heading */
-.main h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
+nav a:hover {
+    color: #b8c1ec;
 }
 
-/* Style paragraphs */
-.main p {
-  margin-bottom: 20px;
-  line-height: 1.5;
+main {
+    margin: 20px;
 }
 
-/* Style list items */
-.main li {
-  margin-bottom: 10px;
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
-/* Style image */
-.main img {
-  max-width: 100%;
-  margin-bottom: 20px;
+section h2 {
+    font-size: 1.5em;
+    margin-top: 0;
 }
+
+section p {
+    font-size: 1.2em;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    font-size: 1.2em;
+}
+
 
