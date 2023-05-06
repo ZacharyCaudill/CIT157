@@ -14,16 +14,17 @@ body {
 }
 
 /* Style links */
-a {
-  color: blue;
+ a {
+  color: #333;
   text-decoration: none;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Style links on hover */
 a:hover {
-  text-decoration: underline;
+  color: #555;
 }
-
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
   /* Adjust font size for smaller screens */
