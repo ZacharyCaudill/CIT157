@@ -21,17 +21,12 @@ justify-content: space-between;
 
 nav li {
 font-size: 20px;
+color: white;
 }
 
 nav a {
-color: white;
 text-decoration: none;
 padding: 1em;
-}
-
-nav a:hover {
-background-color: #006400;
-color: white;
 }
 
 main {
