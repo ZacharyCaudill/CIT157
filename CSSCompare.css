@@ -111,8 +111,5 @@ h2 {
 
 /* Footer */
 footer {
-  width: 100%;
-  height: 50px; 
-  background-color: blue;
-  text-align: center;
+  background-color: #0047AB;
 }
