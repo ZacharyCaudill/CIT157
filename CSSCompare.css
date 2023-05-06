@@ -1,14 +1,13 @@
-/* CSS for Comparison Page */
+/* CSSCompare stylesheet */
 
 body {
-  background-color: #D8FFD8;
+  background-color: #f2f2f2;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
 }
 
 header {
-  background-color: #006400;
+  background-color: #ff9a00;
   color: white;
   text-align: center;
   padding: 10px;
@@ -20,7 +19,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  background-color: #98FB98;
+  background-color: #ffcc80;
 }
 
 nav li {
@@ -28,13 +27,13 @@ nav li {
 }
 
 nav a {
-  color: #006400;
+  color: #ff9a00;
   text-decoration: none;
   padding: 1em;
 }
 
 nav a:hover {
-  background-color: #006400;
+  background-color: #ff9a00;
   color: white;
 }
 
@@ -44,72 +43,42 @@ main {
   padding: 20px;
 }
 
-section {
+.xbox {
+  background-color: #98FB98;
   border: 1px solid #006400;
   border-radius: 10px;
   width: 48%;
   padding: 20px;
 }
 
-section img {
+.xbox img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.ps5 {
+  background-color: #add8e6;
+  border: 1px solid #00008b;
+  border-radius: 10px;
+  width: 48%;
+  padding: 20px;
+}
+
+.ps5 img {
   display: block;
   margin: auto;
   max-width: 100%;
 }
 
 h2 {
+  color: #ff9a00;
   text-align: center;
 }
 
-/* Xbox section */
-.xbox {
-  background-color: #98FB98;
-}
-
-.xbox h2 {
-  color: #006400;
-}
-
-.xbox ul {
-  list-style: none;
-  padding: 0;
-}
-
-.xbox li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.xbox li span {
-  margin-right: 10px;
-}
-
-/* PS5 section */
-.ps5 {
-  background-color: #ADD8E6;
-}
-
-.ps5 h2 {
-  color: #00688B;
-}
-
-.ps5 ul {
-  list-style: none;
-  padding: 0;
-}
-
-.ps5 li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.ps5 li span {
-  margin-right: 10px;
-}
-
-/* Footer */
 footer {
-  background-color: #0047AB;
+  background-color: #98FB98;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
