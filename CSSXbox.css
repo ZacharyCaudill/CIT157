@@ -1,59 +1,55 @@
 /* Xbox Page */
 
 body {
-background-color: #D8FFD8;
+  background-color: #D8FFD8;
 }
 
 header {
-background-color: #006400;
-color: white;
-text-align: center;
-padding: 10px;
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 nav ul {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-between;
-}
-
-nav li {
-font-size: 20px;
-color: white;
+  background-color: #98FB98;
 }
 
 nav a {
-text-decoration: none;
-padding: 1em;
+  color: #006400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #006400;
+  color: white;
 }
 
 main {
-display: flex;
-justify-content: space-between;
-padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 section {
-background-color: #98FB98;
-border: 1px solid #006400;
-border-radius: 10px;
-width: 48%;
-padding: 20px;
+  background-color: #98FB98;
+  border: 1px solid #006400;
+  border-radius: 10px;
+  width: 48%;
+  padding: 20px;
 }
 
 section img {
-display: block;
-margin: auto;
-max-width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }
 
 h2 {
-color: #006400;
-text-align: center;
+  color: #006400;
+  text-align: center;
 }
 
 footer {
-background-color: #006400;
+  background-color: #006400;
 }
