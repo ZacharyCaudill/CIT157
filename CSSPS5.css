@@ -1,1 +1,88 @@
+/* PS5 Page */
 
+body {
+  background-color: #D8FFFF;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0047AB;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4D4DFF;
+}
+
+nav li {
+  font-size: 20px;
+}
+
+nav a {
+  color: #D8FFFF;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav a:hover {
+  background-color: #D8FFFF;
+  color: #0047AB;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+section {
+  background-color: #4D4DFF;
+  border: 1px solid #0047AB;
+  border-radius: 10px;
+  width: 48%;
+  padding: 20px;
+}
+
+section img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+h2 {
+  color: #0047AB;
+  text-align: center;
+}
+
+aside {
+  background-color: #0047AB;
+  color: #D8FFFF;
+  padding: 20px;
+  width: 20%;
+}
+
+aside h3 {
+  color: #D8FFFF;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
